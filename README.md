@@ -2,15 +2,23 @@
 Social icons as Polymer iron-iconset-svg element
 
 ## Demo
-run ```polyserve``` or check the [codepen live](http://codepen.io/binaryunit/pen/jrVyPX)
+Run ```$ polyserve``` or check the [codepen live](http://codepen.io/binaryunit/pen/jrVyPX)
 
 ## Usage
-```bower install social-iconset```
+```$ bower install social-iconset```
 
-import social-iconset icons
-```<link rel="import" href="../social-iconset/social-iconset.html">```
+There are 2 ways to import social-iconset icons
+- with styles
+    ```html
+    <link rel="import" href="../social-iconset/social-iconset.html">
+    ```
+- simple version without styles
+    ```html
+    <link rel="import" href="../social-iconset/social-iconset-simple.html">
+    ```
 
-```
+Then as markup use them as regular iron-icon
+```html
 <iron-icon icon="social-iconset:twitter"></iron-icon>
 <iron-icon class="colorize" icon="social-iconset:twitter"></iron-icon>
 <iron-icon class="size48" icon="social-iconset:twitter"></iron-icon>
