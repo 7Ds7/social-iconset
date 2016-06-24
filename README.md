@@ -25,6 +25,7 @@ Then as markup use them as regular iron-icon
 ```
 
 ### Available classes
+- .size16 (default size is 24px)
 - .size48
 - .size72
 - .colorize
