@@ -9,7 +9,8 @@
     "icons",
     "social",
     "polymer",
-    "iconset"
+    "iconset",
+    "web-components"
   ],
   "license": "MIT",
   "homepage": "",
