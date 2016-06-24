@@ -24,7 +24,6 @@
   "dependencies": {
     "polymer": "^1.5.0",
     "iron-icon": "^1.0.8",
-    "iron-iconset-svg": "^1.0.9",
-    "iron-component-page": "^1.1.7"
+    "iron-iconset-svg": "^1.0.9"
   }
 }
