@@ -40,3 +40,4 @@ Then as markup use them as regular iron-icon
 - youtube
 - rss
 - vimeo
+- google +
