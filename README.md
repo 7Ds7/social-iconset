@@ -1,5 +1,5 @@
 # social-iconset
-Social icons as Polymer iron-iconset-svg element
+Social icons as Polymer <=1.8.1 iron-iconset-svg element
 
 ## Demo
 Run ```$ polyserve``` or check the [codepen live](http://codepen.io/binaryunit/pen/jrVyPX)
