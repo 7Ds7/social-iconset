@@ -1,0 +1,82 @@
+<link rel="import" href="../polymer/polymer.html">
+<dom-module id="social-icons">
+    <template>
+        <style>
+
+            :host {
+                --standardFill:#000000;
+                --invertFill:#ffffff;
+                --youtubeShadow:#e3e2e0;
+                --twitterBlue:#55acee;
+                --facebookBlue:#3d539f;
+                --youtubeInvertFill:transparent;
+                --youtubeRed:#d62523;
+                --inBlue:#0077b5;
+                --rssOrange:#ea7e31;
+                --vimeoBlue:#1ab7ea;
+                --googleColor:#dd4b39;
+
+                --twitterFill:var(--standardFill);
+                --githubFill:var(--standardFill);
+                --facebookFill:var(--standardFill);
+                --path14:var(--standardFill);
+                --ipath16:var(--standardFill);
+                --path18:var(--standardFill);
+                --linkedinFill:var(--standardFill);
+                --innerPlay:var(--invertFill);
+                --ypath16:var(--youtubeShadow);
+                --innerShadow:var(--youtubeShadow);
+                --backgroundPlay:var(--standardFill);
+                --rect18:var(--standardFill);
+                --circle24:var(--invertFill);
+                --path26:var(--invertFill);
+                --vimeoFill:var(--standardFill);
+                --googleplusFill:var(--standardFill);
+            }
+
+            :host .colorize[icon^="social-iconset"] {
+                --twitterFill: var(--twitterBlue);
+                --facebookFill: var(--facebookBlue);
+                --backgroundPlay: var(--youtubeRed);
+                --linkedinFill: var(--inBlue);
+                --rect18: var(--rssOrange);
+                --vimeoFill: var(--vimeoBlue);
+                --googleplusFill: var(--googleColor);
+            }
+
+            :host  .invert[icon^="social-iconset"] {
+                --twitterFill:var(--invertFill);
+                --githubFill:var(--invertFill);
+                --facebookFill:var(--invertFill);
+                --path14:var(--invertFill);
+                --ipath16:var(--invertFill);
+                --path18:var(--invertFill);
+                --linkedinFill:var(--invertFill);
+                --innerPlay:var(--youtubeInvertFill);
+                --ypath16:var(--youtubeShadow);
+                --innerShadow:var(--youtubeShadow);
+                --backgroundPlay:var(--invertFill);
+                --rect18:var(--invertFill);
+                --circle24:var(--standardFill);
+                --path26:var(--standardFill);
+                --vimeoFill:var(--invertFill);
+                --googleplusFill:var(--invertFill);
+            }
+
+            :host .size16[icon^="social-iconset"] {
+                width: 16px;
+                height: 16px;
+            }
+
+            :host .size48[icon^="social-iconset"] {
+                width: 48px;
+                height: 48px;
+            }
+
+            :host .size72[icon^="social-iconset"] {
+                width: 72px;
+                height: 72px;
+            }
+        </style>
+    </template>
+</dom-module>

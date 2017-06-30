@@ -11,6 +11,7 @@ There are 2 ways to import social-iconset icons
 - with styles
     ```html
     <link rel="import" href="../social-iconset/social-iconset.html">
+    <link rel="import" href="../social-iconset/social-iconset-styles.html">
     ```
 - simple version without styles
     ```html
